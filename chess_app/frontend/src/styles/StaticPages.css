@@ -1,0 +1,63 @@
+/* StaticPages.css - Styling for static content pages (About, Rules, History) */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1;
+}
+
+.about-section, .rules-section, .history-section {
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2, .rules-section h2, .history-section h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin: 1rem 0 2rem 0;
+}
+
+.content-container ul {
+  padding-left: 1.5rem;
+}
+
+.content-container li {
+  margin-bottom: 0.5rem;
+}
+
+.content-container a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.content-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 1rem;
+  }
+  
+  .about-section, .rules-section, .history-section {
+    padding: 1rem;
+  }
+}

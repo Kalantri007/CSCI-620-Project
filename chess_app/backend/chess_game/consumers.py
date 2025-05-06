@@ -73,7 +73,13 @@ class ChessGameConsumer(AsyncWebsocketConsumer):
             logger.debug(f"Received {message_type} message in game {self.game_id}")
             
             # Handle different message types
-            if message_type == 'move':
+            if message_type == 'ping':
+                # Respond to ping
+                await self.send(text_data=json.dumps({
+                    'type': 'pong',
+                    'message': 'Hello from server!'
+                }))
+            elif message_type == 'move':
                 # Process chess move
                 await self.channel_layer.group_send(
                     self.game_group_name,
@@ -198,20 +204,19 @@ class LobbyConsumer(AsyncWebsocketConsumer):
             )
         except Exception as e:
             logger.error(f"Error in LobbyConsumer.disconnect: {str(e)}")
-
+            
     async def receive(self, text_data):
-        """
-        Receive message from WebSocket and broadcast to the lobby group
-        """
         try:
             data = json.loads(text_data)
             message_type = data.get('type')
-            
-            logger.debug(f"Received {message_type} message in lobby from {self.scope['user']}")
-            
-            # Handle different message types
-            if message_type == 'challenge':
-                # Process game challenge
+
+            if message_type == 'ping':
+                await self.send(text_data=json.dumps({
+                    'type': 'pong',
+                    'message': 'Hello from server!'
+                }))
+
+            elif message_type == 'challenge':
                 await self.channel_layer.group_send(
                     self.lobby_group_name,
                     {
@@ -221,9 +226,8 @@ class LobbyConsumer(AsyncWebsocketConsumer):
                         'game_id': data.get('game_id')
                     }
                 )
-            
+
             elif message_type == 'challenge_response':
-                # Process challenge response
                 await self.channel_layer.group_send(
                     self.lobby_group_name,
                     {
@@ -234,6 +238,7 @@ class LobbyConsumer(AsyncWebsocketConsumer):
                         'game_id': data.get('game_id')
                     }
                 )
+
         except Exception as e:
             logger.error(f"Error in LobbyConsumer.receive: {str(e)}")
             await self.send(text_data=json.dumps({

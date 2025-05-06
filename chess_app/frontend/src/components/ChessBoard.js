@@ -3,7 +3,13 @@ import { Chess } from 'chess.js';
 import { Chessboard } from 'react-chessboard';
 import '../styles/ChessBoard.css';
 
-const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
+const ChessBoard = ({ 
+  position = 'start', 
+  onMove, 
+  orientation = 'white',
+  isPlayerTurn = true,
+  gameStatus = 'active'
+}) => {
   const [game, setGame] = useState(new Chess(position));
   const [boardOrientation, setBoardOrientation] = useState(orientation);
   const [moveFrom, setMoveFrom] = useState('');
@@ -11,6 +17,7 @@ const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
   const [showPromotionDialog, setShowPromotionDialog] = useState(false);
   const [highlightedSquares, setHighlightedSquares] = useState({});
   const [moveHistory, setMoveHistory] = useState([]);
+  const [errorMessage, setErrorMessage] = useState('');
 
   // Reset game state when position changes externally
   useEffect(() => {
@@ -20,6 +27,9 @@ const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
         const newGame = new Chess(position);
         setGame(newGame);
         setMoveHistory(newGame.history({ verbose: true }));
+        
+        // Clear any error messages when we get a position update from server
+        setErrorMessage('');
       }
       
       // Update orientation if it changes
@@ -28,23 +38,47 @@ const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
       }
     } catch (error) {
       console.error('Invalid position:', error);
+      setErrorMessage('Invalid board position received');
     }
   }, [position, orientation, game, boardOrientation]);
 
+  // Clear highlighted squares after a delay
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setHighlightedSquares({});
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, [highlightedSquares]);
+
   // Handle the piece move
   const onDrop = (sourceSquare, targetSquare) => {
+    // Don't allow moves if it's not the player's turn or game is not active
+    if (!isPlayerTurn) {
+      setErrorMessage("It's not your turn");
+      return false;
+    }
+    
+    if (gameStatus !== 'active') {
+      setErrorMessage("Game is not active");
+      return false;
+    }
+
     try {
-      const move = game.move({
+      // Check if move is legal before making it
+      const moveCheck = game.move({
         from: sourceSquare,
         to: targetSquare,
-        promotion: 'q', // always promote to queen for simplicity
+        promotion: 'q', // Default to queen for simplicity
       });
 
-      if (move === null) return false; // illegal move
+      if (moveCheck === null) {
+        setErrorMessage("Illegal move");
+        return false; // illegal move
+      }
 
-      setGame(new Chess(game.fen()));
-      setMoveHistory(game.history({ verbose: true }));
-
+      // Reset to position before move, as the actual move will come from server
+      game.undo();
+      
       // Highlight squares involved in the move
       setHighlightedSquares({
         [sourceSquare]: { backgroundColor: 'rgba(255, 255, 0, 0.4)' },
@@ -57,13 +91,14 @@ const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
           from: sourceSquare,
           to: targetSquare,
           promotion: 'q',
-          fen: game.fen(),
-          san: move.san
+          san: moveCheck.san
         });
       }
       
       return true;
     } catch (error) {
+      console.error('Move error:', error);
+      setErrorMessage("Error processing move");
       return false;
     }
   };
@@ -80,12 +115,16 @@ const ChessBoard = ({ position = 'start', onMove, orientation = 'white' }) => {
         }}
         customSquareStyles={highlightedSquares}
         id="chess-board"
+        areArrowsAllowed={true}
+        animationDuration={300}
       />
 
       <div className="game-status">
         {game.isCheckmate() ? 'Checkmate!' : 
           game.isDraw() ? 'Draw!' :
             game.isCheck() ? 'Check!' : ''}
+        {errorMessage && <div className="error-message">{errorMessage}</div>}
+        {!isPlayerTurn && gameStatus === 'active' && <div className="waiting-message">Waiting for opponent's move...</div>}
       </div>
     </div>
   );

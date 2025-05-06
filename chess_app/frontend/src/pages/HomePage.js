@@ -14,15 +14,32 @@ const HomePage = () => {
   const [selectedUser, setSelectedUser] = useState('');
   const [showNewGameModal, setShowNewGameModal] = useState(false);
   const [lobbySocket, setLobbySocket] = useState(null);
+  // Add state for notification
+  const [notification, setNotification] = useState(null);
   
   const navigate = useNavigate();
-
+  const sendTestMessage = () => {
+    if (lobbySocket && lobbySocket.readyState === WebSocket.OPEN) {
+      const message = {
+        type: 'ping',
+        message: 'Hello from client!'
+      };
+      lobbySocket.send(JSON.stringify(message));
+      console.log('Sent test message:', message);
+    } else {
+      console.warn('WebSocket is not open.');
+    }
+  };
   const setupLobbyWebSocket = () => {
     const wsScheme = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
     const token = localStorage.getItem('authToken');
     
+    // Use the current hostname instead of hardcoded IP
+    const host = "localhost:8000"; // or wherever Django is running
+    ;
+    
     // Include token in WebSocket URL for authentication
-    const socket = new WebSocket(`${wsScheme}127.0.0.1:8000/ws/lobby/?token=${token}`);
+    const socket = new WebSocket(`${wsScheme}${host}/ws/lobby/?token=${token}`);
     
     let reconnectAttempts = 0;
     let reconnectTimer = null;
@@ -42,16 +59,52 @@ const HomePage = () => {
     socket.onmessage = (e) => {
       const data = JSON.parse(e.data);
       console.log('Received lobby message:', data);
+          // Handle incoming messages
+      if (data.type === 'pong') {
+        console.log('✅ Got pong from server:', data.message);
+      }
       
       if (data.type === 'connection_established') {
         console.log('WebSocket connection confirmed by server');
       } else if (data.type === 'error') {
         console.error('Server error:', data.message);
       } else if (data.type === 'challenge') {
-        // Received a game challenge
-        fetchInvitations(); // Refresh invitations list
+        console.log('New challenge received!');
+        // Set notification state to trigger UI update immediately
+        setNotification({
+          type: 'challenge',
+          message: `${data.sender} has challenged you to a game!`,
+          timestamp: new Date()
+        });
+        
+        // Refresh invitations list
+        fetchInvitations();
+        
+        // Create a browser notification if permitted
+        if ('Notification' in window && Notification.permission === 'granted') {
+          new Notification('New Chess Challenge!', {
+            body: `${data.sender} has challenged you to a game!`
+          });
+        }
       } else if (data.type === 'challenge_response') {
         // Someone responded to a challenge
+        console.log('Challenge response received');
+        
+        // Update notification state based on response
+        if (data.status === 'accepted') {
+          setNotification({
+            type: 'accepted',
+            message: `${data.recipient} accepted your challenge!`,
+            timestamp: new Date()
+          });
+        } else if (data.status === 'declined') {
+          setNotification({
+            type: 'declined',
+            message: `${data.recipient} declined your challenge.`,
+            timestamp: new Date()
+          });
+        }
+        
         fetchGames(); // Refresh games list
         fetchInvitations(); // Refresh invitations list
       } else if (data.type === 'user_online' || data.type === 'user_offline') {
@@ -197,6 +250,10 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
+        <button onClick={sendTestMessage} className="btn test-websocket-btn">
+          Send Test WebSocket Message
+        </button>
+
       <header className="app-header">
         <h1>Chess App</h1>
         
@@ -212,6 +269,16 @@ const HomePage = () => {
           </div>
         )}
       </header>
+
+      {/* Notification display */}
+      {notification && (
+        <div className={`notification-banner ${notification.type}`}>
+          <p>{notification.message}</p>
+          <button onClick={() => setNotification(null)} className="close-notification">
+            ✕
+          </button>
+        </div>
+      )}
 
       {isAuthenticated ? (
         <div className="dashboard">
@@ -375,6 +442,8 @@ const HomePage = () => {
       )}
     </div>
   );
+
+  
 };
 
 export default HomePage;
