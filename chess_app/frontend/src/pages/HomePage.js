@@ -87,20 +87,24 @@ const HomePage = () => {
           });
         }
       } else if (data.type === 'challenge_response') {
-        // Someone responded to a challenge
         console.log('Challenge response received');
-        
-        // Update notification state based on response
-        if (data.status === 'accepted') {
+      
+        if (data.accepted) {
+          // Show notification (optional)
           setNotification({
             type: 'accepted',
-            message: `${data.recipient} accepted your challenge!`,
+            message: `${data.challenged} accepted your challenge!`,
             timestamp: new Date()
           });
-        } else if (data.status === 'declined') {
+      
+          // Navigate challenger to the game
+          if (data.challenger === username) {
+            navigate(`/game/${data.game_id}`);
+          }
+        } else {
           setNotification({
             type: 'declined',
-            message: `${data.recipient} declined your challenge.`,
+            message: `${data.challenged} declined your challenge.`,
             timestamp: new Date()
           });
         }
@@ -216,9 +220,21 @@ const HomePage = () => {
       alert('Please select an opponent');
       return;
     }
-
+  
     try {
-      await api.createInvitation({ recipient: selectedUser });
+      const invitation = await api.createInvitation({ recipient: selectedUser });
+  
+      // Send WebSocket challenge message
+      if (lobbySocket && lobbySocket.readyState === WebSocket.OPEN) {
+        const message = {
+          type: 'challenge',
+          challenger: username,
+          challenged: users.find(u => u.id === parseInt(selectedUser))?.username,
+          game_id: invitation.id // using invitation ID as placeholder for now
+        };
+        lobbySocket.send(JSON.stringify(message));
+      }
+  
       setShowNewGameModal(false);
       setSelectedUser('');
       fetchInvitations();
@@ -227,27 +243,57 @@ const HomePage = () => {
       alert('Failed to create game invitation. Please try again.');
     }
   };
+  
 
   const handleAcceptInvitation = async (invitationId) => {
     try {
       const game = await api.acceptInvitation(invitationId);
+      
+      // Send WebSocket response to challenger
+      if (lobbySocket && lobbySocket.readyState === WebSocket.OPEN) {
+        const message = {
+          type: 'challenge_response',
+          accepted: true,
+          game_id: game.id,
+          challenger: game.white_player.username,
+          challenged: game.black_player.username
+        };
+        lobbySocket.send(JSON.stringify(message));
+      }
+  
       navigate(`/game/${game.id}`);
     } catch (error) {
       console.error('Error accepting invitation:', error);
       alert('Failed to accept invitation. Please try again.');
     }
   };
+  
 
   const handleDeclineInvitation = async (invitationId) => {
     try {
+      const invitation = invitations.find(inv => inv.id === invitationId);
+  
       await api.declineInvitation(invitationId);
+  
+      // Send WebSocket decline message
+      if (invitation && lobbySocket && lobbySocket.readyState === WebSocket.OPEN) {
+        const message = {
+          type: 'challenge_response',
+          accepted: false,
+          game_id: null,
+          challenger: invitation.sender.username,
+          challenged: invitation.recipient.username
+        };
+        lobbySocket.send(JSON.stringify(message));
+      }
+  
       fetchInvitations();
     } catch (error) {
       console.error('Error declining invitation:', error);
       alert('Failed to decline invitation. Please try again.');
     }
   };
-
+  
   return (
     <div className="home-page">
         <button onClick={sendTestMessage} className="btn test-websocket-btn">

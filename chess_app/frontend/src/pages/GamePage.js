@@ -217,15 +217,48 @@ const GamePage = () => {
 
   const handleMove = async (move) => {
     try {
-      // Send move to the backend via API
-      await api.makeMove(gameId, move);
+      // Send move to backend
+      const response = await api.makeMove(gameId, move);
+  
+      // Immediately update gameData with new move and FEN
+      setGameData(prevGameData => {
+        if (!prevGameData) return null;
+  
+        const newMove = {
+          move_notation: response.move_notation,
+          from_player: response.player.username
+        };
+  
+        return {
+          ...prevGameData,
+          fen: response.fen_after_move,
+          current_turn: response.fen_after_move.split(' ')[1] === 'w' ? 'white' : 'black',
+          moves: [...prevGameData.moves, newMove]
+        };
+      });
+  
+      setMoveHistory(prevMoves => [
+        ...prevMoves,
+        {
+          move_notation: response.move_notation,
+          from_player: response.player.username
+        }
+      ]);
+      if (websocket.current && websocket.current.readyState === WebSocket.OPEN) {
+        websocket.current.send(JSON.stringify({
+          type: 'move',
+          move: response.move_notation,
+          fen: response.fen_after_move,
+          player: response.player.username
+        }));
+      }
       
-      // No need to update UI here as the WebSocket will handle that
     } catch (err) {
       setError('Failed to submit move. Please try again.');
       console.error(err);
     }
   };
+  
 
   const handleResign = async () => {
     if (window.confirm('Are you sure you want to resign this game?')) {
