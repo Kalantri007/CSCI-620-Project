@@ -54,9 +54,12 @@ const GamePage = () => {
       const wsScheme = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
       const token = localStorage.getItem('authToken');
       
+      // Use the current hostname instead of hardcoded IP
+      const host = window.location.host;
+      
       // Include token in WebSocket URL for authentication
       const gameSocket = new WebSocket(
-        `${wsScheme}127.0.0.1:8000/ws/game/${gameId}/?token=${token}`
+        `${wsScheme}${host}/ws/game/${gameId}/?token=${token}`
       );
       
       let reconnectAttempts = 0;
@@ -87,18 +90,65 @@ const GamePage = () => {
             setError(`Server error: ${data.message}`);
           } else if (data.type === 'move') {
             // Update game state with new move
-            if (gameData) {  // Check if gameData exists before updating
-              const updatedGameData = { ...gameData };
-              updatedGameData.fen = data.fen;
-              updatedGameData.moves = [...updatedGameData.moves, data.move];
-              setGameData(updatedGameData);
-              setMoveHistory(updatedGameData.moves);
+            console.log('Received move:', data.move, 'New FEN:', data.fen);
+            
+            // Force a re-render by creating a new object reference
+            setGameData(prevGameData => {
+              if (!prevGameData) return null;
+              
+              // Create a new move object in the format your app expects
+              const newMove = {
+                move_notation: data.move,
+                from_player: data.player
+              };
+              
+              const updatedMoves = [...prevGameData.moves, newMove];
+              
+              // Update game data with the new move and FEN position
+              return {
+                ...prevGameData,
+                fen: data.fen,
+                current_turn: data.fen.split(' ')[1] === 'w' ? 'white' : 'black',
+                moves: updatedMoves
+              };
+            });
+            
+            // Also update move history state separately to ensure UI updates
+            setMoveHistory(prevMoves => [
+              ...prevMoves, 
+              {
+                move_notation: data.move,
+                from_player: data.player
+              }
+            ]);
+            
+            // Force-update the status message if the game state has changed
+            if (data.game_status) {
+              setGameStatus(data.game_status);
+              updateStatusMessage(data.game_status, data.result);
             }
           } else if (data.type === 'game_update') {
             // Update entire game state
+            console.log('Received game update:', data.game);
             setGameData(data.game);
             setMoveHistory(data.game.moves);
             updateStatusMessage(data.game.status, data.game.result);
+          } else if (data.type === 'resign') {
+            // Handle resignation
+            setGameData(prevGameData => {
+              if (!prevGameData) return null;
+              
+              const updatedGameData = {
+                ...prevGameData,
+                status: 'finished',
+                result: data.player === 'white' ? 'black_win' : 'white_win'
+              };
+              
+              // Update status message
+              updateStatusMessage('finished', updatedGameData.result);
+              
+              return updatedGameData;
+            });
           }
         } catch (err) {
           console.error('Error parsing WebSocket message:', err);
@@ -167,15 +217,48 @@ const GamePage = () => {
 
   const handleMove = async (move) => {
     try {
-      // Send move to the backend via API
-      await api.makeMove(gameId, move);
+      // Send move to backend
+      const response = await api.makeMove(gameId, move);
+  
+      // Immediately update gameData with new move and FEN
+      setGameData(prevGameData => {
+        if (!prevGameData) return null;
+  
+        const newMove = {
+          move_notation: response.move_notation,
+          from_player: response.player.username
+        };
+  
+        return {
+          ...prevGameData,
+          fen: response.fen_after_move,
+          current_turn: response.fen_after_move.split(' ')[1] === 'w' ? 'white' : 'black',
+          moves: [...prevGameData.moves, newMove]
+        };
+      });
+  
+      setMoveHistory(prevMoves => [
+        ...prevMoves,
+        {
+          move_notation: response.move_notation,
+          from_player: response.player.username
+        }
+      ]);
+      if (websocket.current && websocket.current.readyState === WebSocket.OPEN) {
+        websocket.current.send(JSON.stringify({
+          type: 'move',
+          move: response.move_notation,
+          fen: response.fen_after_move,
+          player: response.player.username
+        }));
+      }
       
-      // No need to update UI here as the WebSocket will handle that
     } catch (err) {
       setError('Failed to submit move. Please try again.');
       console.error(err);
     }
   };
+  
 
   const handleResign = async () => {
     if (window.confirm('Are you sure you want to resign this game?')) {

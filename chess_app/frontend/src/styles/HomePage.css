@@ -4,6 +4,17 @@
   padding: 20px;
 }
 
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -191,7 +202,7 @@
 
 .welcome-section {
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .welcome-section h2 {
@@ -202,8 +213,60 @@
 
 .welcome-section p {
   font-size: 1.2rem;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Guest user information section */
+.info-links-section {
+  margin-top: 40px;
+  padding: 30px 0;
+}
+
+.info-links-section h3 {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.info-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-link-card {
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: left;
+}
+
+.info-link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  color: var(--text-color);
+}
+
+.info-link-card h4 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.info-link-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.test-websocket-btn {
+  margin-bottom: 15px;
 }
 
 /* Modal styles */
@@ -266,4 +329,44 @@
 
 .cancel-btn:hover {
   background-color: #5a6268;
+}
+
+.notification-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: rgba(255, 209, 102, 0.2);
+  border-left: 3px solid #ffd166;
+}
+
+.notification-banner.challenge {
+  background-color: rgba(255, 209, 102, 0.2);
+  border-left-color: #ffd166;
+}
+
+.notification-banner.accepted {
+  background-color: rgba(42, 157, 143, 0.2);
+  border-left-color: var(--success-color);
+}
+
+.notification-banner.declined {
+  background-color: rgba(230, 57, 70, 0.2);
+  border-left-color: var(--error-color);
+}
+
+.close-notification {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #555;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.close-notification:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }

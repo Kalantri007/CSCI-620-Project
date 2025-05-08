@@ -293,3 +293,409 @@ INFO 2025-05-03 21:03:52,705 consumers WebSocket connection accepted for game 67
 INFO 2025-05-03 21:03:52,738 auth WebSocket authenticated user: vkalantri
 INFO 2025-05-03 21:03:52,742 consumers WebSocket connection accepted for lobby, user: vkalantri
 INFO 2025-05-03 21:03:52,744 consumers User vkalantri connected to lobby
+WARNING 2025-05-07 03:24:55,369 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 03:24:55,371 auth WebSocket authenticated user: 
+INFO 2025-05-07 03:24:55,622 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 03:24:57,811 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 03:24:57,813 auth WebSocket authenticated user: 
+INFO 2025-05-07 03:24:57,819 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 03:26:50,258 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 03:26:50,260 auth WebSocket authenticated user: 
+INFO 2025-05-07 03:26:50,422 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 03:26:55,189 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 03:26:55,191 auth WebSocket authenticated user: 
+INFO 2025-05-07 03:26:55,197 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:32:52,522 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 04:32:52,524 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:32:52,623 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:32:57,449 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 04:32:57,452 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:32:57,462 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:33:22,692 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 04:33:22,701 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:22,707 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:33:22,884 auth Invalid token: 75ac27c06f7425f79fd7a04610785770ace29094
+INFO 2025-05-07 04:33:22,897 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:22,906 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:33:45,445 auth Invalid token: 673aa4af3dc866ab7befc12d0a1ae58b6b7cd2e4
+INFO 2025-05-07 04:33:45,446 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:45,446 consumers Attempting connection to game 74a466d5-bf2a-4269-8dda-902cb2517710 by user AnonymousUser
+INFO 2025-05-07 04:33:45,448 consumers WebSocket connection accepted for game 74a466d5-bf2a-4269-8dda-902cb2517710, user AnonymousUser
+WARNING 2025-05-07 04:33:45,897 auth Invalid token: 673aa4af3dc866ab7befc12d0a1ae58b6b7cd2e4
+INFO 2025-05-07 04:33:45,897 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:45,898 consumers Attempting connection to game 74a466d5-bf2a-4269-8dda-902cb2517710 by user AnonymousUser
+INFO 2025-05-07 04:33:45,899 consumers WebSocket connection accepted for game 74a466d5-bf2a-4269-8dda-902cb2517710, user AnonymousUser
+INFO 2025-05-07 04:33:50,283 consumers Disconnecting from game 74a466d5-bf2a-4269-8dda-902cb2517710, code: 1001
+INFO 2025-05-07 04:33:50,284 consumers Disconnecting from game 74a466d5-bf2a-4269-8dda-902cb2517710, code: 1001
+WARNING 2025-05-07 04:33:50,361 auth Invalid token: 673aa4af3dc866ab7befc12d0a1ae58b6b7cd2e4
+INFO 2025-05-07 04:33:50,395 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:50,409 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-07 04:33:50,450 auth Invalid token: 673aa4af3dc866ab7befc12d0a1ae58b6b7cd2e4
+INFO 2025-05-07 04:33:50,451 auth WebSocket authenticated user: 
+INFO 2025-05-07 04:33:50,453 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+INFO 2025-05-07 04:35:27,474 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:35:27,485 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:35:27,487 consumers User edge connected to lobby
+INFO 2025-05-07 04:35:27,580 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:35:27,588 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:35:27,590 consumers User edge connected to lobby
+INFO 2025-05-07 04:35:33,107 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:35:33,114 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:35:33,114 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:35:33,188 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:35:33,191 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:35:33,195 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:38:01,019 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 04:38:01,024 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 04:38:01,026 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:38:01,027 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:38:01,144 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:38:01,153 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:38:01,154 consumers User edge connected to lobby
+INFO 2025-05-07 04:38:01,220 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:38:01,227 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:38:01,228 consumers User edge connected to lobby
+INFO 2025-05-07 04:42:25,954 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:42:25,956 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:42:25,958 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:42:25,958 consumers User edge connected to lobby
+INFO 2025-05-07 04:42:25,961 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:42:25,961 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:48:36,331 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:48:36,332 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:48:36,332 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:48:36,869 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:48:36,870 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:48:36,871 consumers User edge connected to lobby
+INFO 2025-05-07 04:48:36,902 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:48:36,904 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:48:36,905 consumers User edge connected to lobby
+DEBUG 2025-05-07 04:48:38,381 consumers Received challenge_response message in lobby from edge
+INFO 2025-05-07 04:48:48,968 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 04:48:48,969 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 04:48:48,973 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:48:48,973 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:48:48,974 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:48:49,768 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:48:49,770 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:48:49,770 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:48:49,831 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:48:49,833 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:48:49,833 consumers User vkalantri connected to lobby
+DEBUG 2025-05-07 04:49:28,250 consumers Received challenge message in lobby from vkalantri
+DEBUG 2025-05-07 04:49:36,395 consumers Received challenge_response message in lobby from edge
+INFO 2025-05-07 04:49:53,792 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:49:53,798 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:49:53,799 consumers User edge connected to lobby
+INFO 2025-05-07 04:49:53,829 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:49:53,831 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:49:53,833 consumers User edge connected to lobby
+INFO 2025-05-07 04:49:56,490 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:49:56,492 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:49:56,492 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:49:56,529 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:49:56,533 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:49:56,533 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:50:06,017 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:50:06,019 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:50:06,019 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:50:06,021 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:50:06,418 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:50:06,420 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:50:06,420 consumers User edge connected to lobby
+INFO 2025-05-07 04:50:06,461 auth WebSocket authenticated user: edge
+INFO 2025-05-07 04:50:06,464 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 04:50:06,464 consumers User edge connected to lobby
+INFO 2025-05-07 04:50:11,029 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:50:11,029 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:50:11,030 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:50:11,030 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:50:14,147 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:50:14,148 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:50:14,149 consumers User vkalantri connected to lobby
+INFO 2025-05-07 04:50:14,190 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 04:50:14,194 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 04:50:14,195 consumers User vkalantri connected to lobby
+DEBUG 2025-05-07 04:53:56,870 consumers Received challenge message in lobby from edge
+DEBUG 2025-05-07 04:56:16,526 consumers Received challenge_response message in lobby from vkalantri
+INFO 2025-05-07 04:56:32,442 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:56:32,442 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 04:56:55,517 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 04:56:55,518 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 05:40:37,844 auth WebSocket authenticated user: edge
+INFO 2025-05-07 05:40:37,851 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 05:40:37,851 consumers User edge connected to lobby
+INFO 2025-05-07 05:40:37,885 auth WebSocket authenticated user: edge
+INFO 2025-05-07 05:40:37,888 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 05:40:37,888 consumers User edge connected to lobby
+INFO 2025-05-07 05:40:40,236 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 05:40:40,238 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 05:40:40,238 consumers User vkalantri connected to lobby
+INFO 2025-05-07 05:40:40,304 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-07 05:40:40,307 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-07 05:40:40,308 consumers User vkalantri connected to lobby
+INFO 2025-05-07 05:40:53,406 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 05:40:53,406 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-07 05:40:53,743 auth WebSocket authenticated user: edge
+INFO 2025-05-07 05:40:53,747 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 05:40:53,748 consumers User edge connected to lobby
+INFO 2025-05-07 05:40:53,790 auth WebSocket authenticated user: edge
+INFO 2025-05-07 05:40:53,794 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 05:40:53,794 consumers User edge connected to lobby
+INFO 2025-05-07 05:46:17,411 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 05:46:17,412 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-07 05:46:25,915 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 05:46:25,916 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-07 06:24:59,375 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 06:24:59,378 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 07:04:18,977 auth WebSocket authenticated user: edge
+INFO 2025-05-07 07:04:18,981 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 07:04:18,982 consumers User edge connected to lobby
+INFO 2025-05-07 07:04:19,022 auth WebSocket authenticated user: edge
+INFO 2025-05-07 07:04:19,027 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 07:04:19,032 consumers User edge connected to lobby
+INFO 2025-05-07 07:49:12,325 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 07:49:12,340 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 08:12:40,141 auth WebSocket authenticated user: edge
+INFO 2025-05-07 08:12:40,152 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 08:12:40,154 consumers User edge connected to lobby
+INFO 2025-05-07 08:12:40,181 auth WebSocket authenticated user: edge
+INFO 2025-05-07 08:12:40,185 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 08:12:40,185 consumers User edge connected to lobby
+INFO 2025-05-07 08:30:20,899 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 08:30:20,909 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:20:56,529 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:20:56,542 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:20:56,544 consumers User edge connected to lobby
+INFO 2025-05-07 18:20:56,592 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:20:56,595 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:20:56,596 consumers User edge connected to lobby
+INFO 2025-05-07 18:48:24,902 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:48:24,916 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:48:27,631 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:48:27,635 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:48:27,635 consumers User edge connected to lobby
+INFO 2025-05-07 18:48:27,690 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:48:27,692 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:48:27,693 consumers User edge connected to lobby
+INFO 2025-05-07 18:48:30,059 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:48:30,060 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:51:39,725 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:51:39,728 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:51:39,729 consumers User edge connected to lobby
+INFO 2025-05-07 18:51:39,770 auth WebSocket authenticated user: edge
+INFO 2025-05-07 18:51:39,775 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 18:51:39,775 consumers User edge connected to lobby
+INFO 2025-05-07 18:51:43,117 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 18:51:43,118 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 21:03:53,196 auth WebSocket authenticated user: edge
+INFO 2025-05-07 21:03:53,199 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 21:03:53,200 consumers User edge connected to lobby
+INFO 2025-05-07 21:03:53,242 auth WebSocket authenticated user: edge
+INFO 2025-05-07 21:03:53,245 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-07 21:03:53,246 consumers User edge connected to lobby
+INFO 2025-05-07 21:43:36,695 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-07 21:43:36,703 consumers Disconnecting from lobby, code: 1006, user: edge
+INFO 2025-05-08 01:48:45,804 auth WebSocket authenticated user: edge
+INFO 2025-05-08 01:48:45,814 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 01:48:45,817 consumers User edge connected to lobby
+INFO 2025-05-08 01:48:45,844 auth WebSocket authenticated user: edge
+INFO 2025-05-08 01:48:45,846 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 01:48:45,847 consumers User edge connected to lobby
+INFO 2025-05-08 02:23:05,516 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:23:05,774 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:23:05,775 consumers User edge connected to lobby
+INFO 2025-05-08 02:23:07,566 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:23:07,572 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:23:07,573 consumers User edge connected to lobby
+INFO 2025-05-08 02:24:40,048 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:24:40,050 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:24:40,051 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:24:40,086 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:24:40,090 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:24:40,091 consumers User vkalantri connected to lobby
+DEBUG 2025-05-08 02:24:54,269 consumers Received ping message in lobby from vkalantri
+INFO 2025-05-08 02:25:04,245 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:25:04,247 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:25:04,959 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:25:04,993 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:25:04,997 consumers User edge connected to lobby
+INFO 2025-05-08 02:25:05,145 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:25:05,176 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:25:05,187 consumers User edge connected to lobby
+DEBUG 2025-05-08 02:25:14,482 consumers Received challenge message in lobby from edge
+DEBUG 2025-05-08 02:25:24,265 consumers Received challenge_response message in lobby from vkalantri
+INFO 2025-05-08 02:28:20,175 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:28:20,203 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:28:20,204 consumers User edge connected to lobby
+INFO 2025-05-08 02:28:20,356 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:28:20,385 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:28:20,386 consumers User edge connected to lobby
+INFO 2025-05-08 02:28:28,355 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:28:28,369 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:28:28,372 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:28:28,463 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:28:28,470 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:28:28,473 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:28:37,697 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:28:37,700 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:28:37,701 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:28:37,756 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:28:37,761 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:28:37,762 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:33:26,534 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:33:26,536 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:33:26,536 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:33:26,606 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:33:26,616 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:33:26,617 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:33:38,388 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:33:38,418 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:33:38,420 consumers User edge connected to lobby
+INFO 2025-05-08 02:33:38,607 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:33:38,666 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:33:38,667 consumers User edge connected to lobby
+INFO 2025-05-08 02:33:43,972 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:33:43,976 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:33:43,976 consumers User edge connected to lobby
+INFO 2025-05-08 02:33:44,018 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:33:44,023 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:33:44,024 consumers User edge connected to lobby
+INFO 2025-05-08 02:44:50,892 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,899 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,908 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,925 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,926 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,928 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,932 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:44:50,941 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:50:58,608 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:58,787 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:58,787 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:58,868 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:58,871 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:58,872 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:58,907 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:58,912 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:58,913 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:58,949 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:58,952 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:58,953 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:58,984 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:58,988 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:58,988 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:59,023 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:59,030 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:59,031 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:59,062 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:59,065 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:59,066 consumers User edge connected to lobby
+INFO 2025-05-08 02:50:59,096 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:50:59,101 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:50:59,101 consumers User edge connected to lobby
+INFO 2025-05-08 02:51:06,333 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,339 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,340 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,340 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,341 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,341 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,341 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:06,342 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:51:07,063 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:51:07,071 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:51:07,072 consumers User edge connected to lobby
+INFO 2025-05-08 02:51:07,123 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:51:07,134 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 02:51:07,135 consumers User edge connected to lobby
+INFO 2025-05-08 02:52:02,724 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:52:02,731 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 02:55:05,567 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:55:05,574 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user edge
+INFO 2025-05-08 02:55:05,577 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user edge
+INFO 2025-05-08 02:55:05,580 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:55:05,582 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 02:55:05,585 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 02:57:43,322 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:57:43,449 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:57:43,450 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:57:43,519 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:57:43,530 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 02:57:43,532 consumers User vkalantri connected to lobby
+INFO 2025-05-08 02:57:45,448 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:57:45,449 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 02:57:45,451 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 02:58:20,318 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:58:20,322 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user edge
+INFO 2025-05-08 02:58:20,326 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user edge
+INFO 2025-05-08 02:58:20,677 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1001
+INFO 2025-05-08 02:58:21,135 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:58:21,136 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user edge
+INFO 2025-05-08 02:58:21,137 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user edge
+INFO 2025-05-08 02:58:37,105 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1001
+INFO 2025-05-08 02:58:37,561 auth WebSocket authenticated user: edge
+INFO 2025-05-08 02:58:37,562 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user edge
+INFO 2025-05-08 02:58:37,563 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user edge
+INFO 2025-05-08 02:58:55,680 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:58:55,683 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 02:58:55,686 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1001
+INFO 2025-05-08 02:58:57,220 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:58:57,222 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 02:58:57,223 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 02:59:09,537 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1001
+INFO 2025-05-08 02:59:10,270 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 02:59:10,271 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 02:59:10,272 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 02:59:25,267 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1000
+INFO 2025-05-08 02:59:26,275 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1000
+INFO 2025-05-08 03:01:45,234 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:01:45,344 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 03:01:45,356 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 03:01:45,393 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:01:45,397 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 03:01:45,400 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 03:01:49,874 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:01:49,922 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 03:01:49,925 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 03:01:49,957 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:01:49,959 consumers Attempting connection to game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a by user vkalantri
+INFO 2025-05-08 03:01:49,960 consumers WebSocket connection accepted for game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, user vkalantri
+INFO 2025-05-08 03:01:56,228 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1000
+INFO 2025-05-08 03:01:57,469 consumers Disconnecting from game 382b9e5c-d996-4b4e-8961-22b95c5d2b6a, code: 1001
+INFO 2025-05-08 03:05:02,319 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:05:02,323 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:05:02,323 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:05:02,349 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:05:02,355 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:05:02,355 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:05:13,946 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:05:13,947 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:05:13,947 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:05:13,975 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:05:13,979 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:05:13,980 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:06:29,305 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:06:29,308 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:06:29,309 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:06:29,309 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:22:01,493 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:22:01,498 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:22:01,499 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:22:01,527 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:22:01,528 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:22:01,528 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:22:08,326 auth WebSocket authenticated user: edge
+INFO 2025-05-08 03:22:08,334 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 03:22:08,335 consumers User edge connected to lobby
+INFO 2025-05-08 03:22:08,389 auth WebSocket authenticated user: edge
+INFO 2025-05-08 03:22:08,392 consumers WebSocket connection accepted for lobby, user: edge
+INFO 2025-05-08 03:22:08,394 consumers User edge connected to lobby
+INFO 2025-05-08 03:40:41,053 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 03:40:41,055 consumers Disconnecting from lobby, code: 1001, user: edge
+INFO 2025-05-08 03:40:55,789 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:40:55,791 consumers Disconnecting from lobby, code: 1001, user: vkalantri
+INFO 2025-05-08 03:40:56,392 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:40:56,394 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:40:56,394 consumers User vkalantri connected to lobby
+INFO 2025-05-08 03:40:56,423 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 03:40:56,425 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 03:40:56,425 consumers User vkalantri connected to lobby
