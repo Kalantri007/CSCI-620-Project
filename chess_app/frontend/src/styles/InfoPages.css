@@ -64,6 +64,22 @@
   margin-bottom: 10px;
 }
 
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 768px) {
   .content-container {
     padding: 15px;

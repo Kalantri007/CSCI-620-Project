@@ -699,3 +699,9 @@ INFO 2025-05-08 03:40:56,394 consumers User vkalantri connected to lobby
 INFO 2025-05-08 03:40:56,423 auth WebSocket authenticated user: vkalantri
 INFO 2025-05-08 03:40:56,425 consumers WebSocket connection accepted for lobby, user: vkalantri
 INFO 2025-05-08 03:40:56,425 consumers User vkalantri connected to lobby
+INFO 2025-05-08 20:15:52,357 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 20:15:52,436 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 20:15:52,437 consumers User vkalantri connected to lobby
+INFO 2025-05-08 20:15:53,298 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-08 20:15:53,303 consumers WebSocket connection accepted for lobby, user: vkalantri
+INFO 2025-05-08 20:15:53,303 consumers User vkalantri connected to lobby

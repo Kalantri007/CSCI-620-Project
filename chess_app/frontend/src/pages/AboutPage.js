@@ -47,35 +47,18 @@ const AboutPage = () => {
           <div className="developer-profile">
             <div className="developer-info">
               <h3>Vyankatesh Kalantri</h3>
+              <div className="profile-image-container">
+                <img 
+                  src="/profile.jpg" 
+                  alt="Vyankatesh Kalantri" 
+                  className="profile-image"
+                />
+              </div>
               <p>Masters Student at CSU Chico</p>
-              <p>
-                John is a senior computer science student with expertise in full-stack web development. 
-                His interests include game development, algorithms, and artificial intelligence.
-              </p>
+              <p>I enjoy solving problems, learning new technologies, and playing chess in my free time. My goal is to improve my skills in software development.</p>
             </div>
           </div>
           
-          <div className="developer-profile">
-            <div className="developer-info">
-              <h3>Jane Doe</h3>
-              <p>UX/UI Designer</p>
-              <p>
-                Jane is a talented designer with a background in human-computer interaction. 
-                She's responsible for making Chess App intuitive and visually appealing.
-              </p>
-            </div>
-          </div>
-          
-          <div className="developer-profile">
-            <div className="developer-info">
-              <h3>Alex Johnson</h3>
-              <p>Back-End Developer</p>
-              <p>
-                Alex specializes in server-side technologies and database management. 
-                He implemented the real-time gameplay and user authentication systems.
-              </p>
-            </div>
-          </div>
         </section>
         
         <section className="info-section">
@@ -92,12 +75,12 @@ const AboutPage = () => {
         <section className="info-section">
           <h2>Contact Us</h2>
           <p>
-            We welcome your feedback and suggestions! If you encounter any issues or have ideas for 
-            improvements, please contact us at:
+            I welcome your feedback and suggestions! If you encounter any issues or have ideas for 
+            improvements, please contact at:
           </p>
           <p>
-            <strong>Email:</strong> chessapp@example.com<br />
-            <strong>GitHub:</strong> github.com/example/chess-app
+            <strong>Email:</strong> vkalantri@csuchico.edu<br />
+            <strong>GitHub:</strong> https://github.com/Kalantri007
           </p>
         </section>
       </div>
