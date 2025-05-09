@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import api from '../services/api';
+import api, { API_BASE_URL } from '../services/api';
 import '../styles/HomePage.css';
 import Navigation from '../components/Navigation';
 
@@ -33,7 +33,7 @@ const HomePage = () => {
   const setupLobbyWebSocket = () => {
     const wsScheme = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
     const token = localStorage.getItem('authToken');
-    const host = "localhost:8000";
+    const { host } = new URL(API_BASE_URL);
     const socket = new WebSocket(`${wsScheme}${host}/ws/lobby/?token=${token}`);
     
     let reconnectAttempts = 0;
@@ -94,6 +94,27 @@ const HomePage = () => {
         fetchInvitations();
       } else if (data.type === 'user_online' || data.type === 'user_offline') {
         fetchUsers();
+      } else if (data.type === 'game_updated') {
+        console.log('Game updated notification received:', data);
+        // Refresh the games list when any game is updated
+        fetchGames();
+        
+        // Show notification about the game update
+        if (data.game_id) {
+          if (data.status === 'finished') {
+            setNotification({
+              type: 'game_finished',
+              message: `Game #${data.game_id} has ended. Result: ${data.result === 'white_win' ? 'White wins!' : 'Black wins!'}`,
+              timestamp: new Date()
+            });
+          } else {
+            setNotification({
+              type: 'game_move',
+              message: `Game #${data.game_id} has been updated.`,
+              timestamp: new Date()
+            });
+          }
+        }
       }
     };
     

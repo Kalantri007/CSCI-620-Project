@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ChessBoard from '../components/ChessBoard';
-import api from '../services/api';
+import api, { API_BASE_URL } from '../services/api';
 import '../styles/GamePage.css';
 
 const GamePage = () => {
@@ -54,13 +54,13 @@ const GamePage = () => {
       const wsScheme = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
       const token = localStorage.getItem('authToken');
       
-      // Use the current hostname instead of hardcoded IP
-      const host = window.location.host;
+      // Hardcode backend host:port for Django
+      const { host } = new URL(API_BASE_URL);
+
       
-      // Include token in WebSocket URL for authentication
-      const gameSocket = new WebSocket(
-        `${wsScheme}${host}/ws/game/${gameId}/?token=${token}`
-      );
+      // Connect to the lobby WebSocket endpoint only
+      const gameSocket = new WebSocket(`${wsScheme}${host}/ws/lobby/?token=${token}`);
+
       
       let reconnectAttempts = 0;
       let reconnectTimer = null;
@@ -89,38 +89,44 @@ const GamePage = () => {
           } else if (data.type === 'error') {
             setError(`Server error: ${data.message}`);
           } else if (data.type === 'move') {
-            // Update game state with new move
-            console.log('Received move:', data.move, 'New FEN:', data.fen);
-            
-            // Force a re-render by creating a new object reference
-            setGameData(prevGameData => {
-              if (!prevGameData) return null;
+            // If reload flag is true, fetch fresh game data
+            //if (data.game_id !== gameId) return; // Ignore messages for other games
+
+            if (data.reload) {
+              console.log('Reloading game data after move');
+              fetchGameData();
+            } else {
+              // Update game state with new move
+              console.log('Received move:', data.move);
               
-              // Create a new move object in the format your app expects
-              const newMove = {
-                move_notation: data.move,
-                from_player: data.player
-              };
+              // Force a re-render by creating a new object reference
+              setGameData(prevGameData => {
+                if (!prevGameData) return null;
+                
+                // Create a new move object in the format your app expects
+                const newMove = {
+                  move_notation: data.move,
+                  from_player: data.player
+                };
+                
+                const updatedMoves = [...prevGameData.moves, newMove];
+                
+                // Update game data with the new move
+                return {
+                  ...prevGameData,
+                  moves: updatedMoves
+                };
+              });
               
-              const updatedMoves = [...prevGameData.moves, newMove];
-              
-              // Update game data with the new move and FEN position
-              return {
-                ...prevGameData,
-                fen: data.fen,
-                current_turn: data.fen.split(' ')[1] === 'w' ? 'white' : 'black',
-                moves: updatedMoves
-              };
-            });
-            
-            // Also update move history state separately to ensure UI updates
-            setMoveHistory(prevMoves => [
-              ...prevMoves, 
-              {
-                move_notation: data.move,
-                from_player: data.player
-              }
-            ]);
+              // Also update move history state separately to ensure UI updates
+              setMoveHistory(prevMoves => [
+                ...prevMoves, 
+                {
+                  move_notation: data.move,
+                  from_player: data.player
+                }
+              ]);
+            }
             
             // Force-update the status message if the game state has changed
             if (data.game_status) {
@@ -244,12 +250,14 @@ const GamePage = () => {
           from_player: response.player.username
         }
       ]);
+      
+      // Send websocket notification about the move
       if (websocket.current && websocket.current.readyState === WebSocket.OPEN) {
         websocket.current.send(JSON.stringify({
           type: 'move',
           move: response.move_notation,
-          fen: response.fen_after_move,
-          player: response.player.username
+          player: response.player.username,
+          game_id: gameId
         }));
       }
       
@@ -264,7 +272,18 @@ const GamePage = () => {
     if (window.confirm('Are you sure you want to resign this game?')) {
       try {
         await api.resignGame(gameId);
-        // WebSocket will handle the game status update
+        
+        // Send websocket notification about resignation
+        if (websocket.current && websocket.current.readyState === WebSocket.OPEN) {
+          const currentUser = localStorage.getItem('username');
+          const playerColor = userColor; // We already determined this earlier
+          
+          websocket.current.send(JSON.stringify({
+            type: 'resign',
+            player: playerColor,
+            game_id: gameId
+          }));
+        }
       } catch (err) {
         setError('Failed to resign. Please try again.');
         console.error(err);

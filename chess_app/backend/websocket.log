@@ -705,3 +705,639 @@ INFO 2025-05-08 20:15:52,437 consumers User vkalantri connected to lobby
 INFO 2025-05-08 20:15:53,298 auth WebSocket authenticated user: vkalantri
 INFO 2025-05-08 20:15:53,303 consumers WebSocket connection accepted for lobby, user: vkalantri
 INFO 2025-05-08 20:15:53,303 consumers User vkalantri connected to lobby
+WARNING 2025-05-09 03:55:39,641 auth Invalid token: null
+INFO 2025-05-09 03:55:39,648 auth WebSocket authenticated user: 
+WARNING 2025-05-09 03:55:39,655 auth Invalid token: c6a30e40b72d7cc048677dbc43e4dfa847163a2c
+INFO 2025-05-09 03:55:39,924 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:39,930 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+INFO 2025-05-09 03:55:39,931 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:55:39,955 auth Invalid token: null
+INFO 2025-05-09 03:55:39,957 auth WebSocket authenticated user: 
+WARNING 2025-05-09 03:55:39,959 auth Invalid token: c6a30e40b72d7cc048677dbc43e4dfa847163a2c
+INFO 2025-05-09 03:55:39,959 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:39,961 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+INFO 2025-05-09 03:55:39,963 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:55:39,992 auth Invalid token: null
+INFO 2025-05-09 03:55:39,993 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:39,995 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:55:41,660 auth Invalid token: null
+INFO 2025-05-09 03:55:41,661 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:41,663 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:55:56,602 auth Invalid token: 9fe238637aa5afaa6aecbc160accf55f12890c6b
+INFO 2025-05-09 03:55:56,611 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:56,622 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:55:56,667 auth Invalid token: 9fe238637aa5afaa6aecbc160accf55f12890c6b
+INFO 2025-05-09 03:55:56,699 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:55:56,708 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+INFO 2025-05-09 03:55:58,928 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:55:58,938 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:06,411 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:06,416 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+WARNING 2025-05-09 03:56:07,319 auth Invalid token: 9fe238637aa5afaa6aecbc160accf55f12890c6b
+INFO 2025-05-09 03:56:07,320 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:56:07,324 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:56:07,362 auth Invalid token: 9fe238637aa5afaa6aecbc160accf55f12890c6b
+INFO 2025-05-09 03:56:07,363 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:56:07,366 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:56:19,024 auth Invalid token: 90e70a03f6a7c2d6625dcb8dd941f4568a8f9a52
+INFO 2025-05-09 03:56:19,027 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:56:19,036 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+WARNING 2025-05-09 03:56:19,076 auth Invalid token: 90e70a03f6a7c2d6625dcb8dd941f4568a8f9a52
+INFO 2025-05-09 03:56:19,085 auth WebSocket authenticated user: 
+INFO 2025-05-09 03:56:19,093 consumers WebSocket connection accepted for lobby, user: AnonymousUser
+INFO 2025-05-09 03:56:21,789 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:21,792 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:21,801 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:21,807 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:31,236 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+INFO 2025-05-09 03:56:31,238 consumers Disconnecting from lobby, code: 1001, user: AnonymousUser
+WARNING 2025-05-09 04:14:00,985 auth Invalid token: null
+INFO 2025-05-09 04:14:00,987 auth WebSocket authenticated user: 
+INFO 2025-05-09 04:14:01,164 consumers WebSocket connection accepted for lobby/game, user: AnonymousUser
+WARNING 2025-05-09 04:14:02,435 auth Invalid token: null
+INFO 2025-05-09 04:14:02,441 auth WebSocket authenticated user: 
+INFO 2025-05-09 04:14:02,448 consumers WebSocket connection accepted for lobby/game, user: AnonymousUser
+INFO 2025-05-09 04:14:18,476 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 04:14:18,479 consumers WebSocket connection accepted for lobby/game, user: vkalantri
+INFO 2025-05-09 04:14:18,480 consumers User vkalantri connected
+INFO 2025-05-09 04:14:18,508 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 04:14:18,513 consumers WebSocket connection accepted for lobby/game, user: vkalantri
+INFO 2025-05-09 04:14:18,513 consumers User vkalantri connected
+INFO 2025-05-09 04:15:57,484 auth WebSocket authenticated user: git
+INFO 2025-05-09 04:15:57,490 consumers WebSocket connection accepted for lobby/game, user: git
+INFO 2025-05-09 04:15:57,491 consumers User git connected
+INFO 2025-05-09 04:15:57,555 auth WebSocket authenticated user: git
+INFO 2025-05-09 04:15:57,567 consumers WebSocket connection accepted for lobby/game, user: git
+INFO 2025-05-09 04:15:57,568 consumers User git connected
+DEBUG 2025-05-09 04:16:20,372 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 04:16:26,412 consumers Received challenge_response message from git
+INFO 2025-05-09 04:16:47,104 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 04:16:47,105 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 04:17:08,709 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 04:17:08,711 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 04:23:21,272 consumers Disconnecting, code: 1001, user: AnonymousUser
+INFO 2025-05-09 04:23:21,278 consumers Disconnecting, code: 1001, user: AnonymousUser
+INFO 2025-05-09 04:59:34,110 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 04:59:34,298 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 04:59:34,298 consumers User vkalantri connected
+INFO 2025-05-09 04:59:34,366 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 04:59:34,379 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 04:59:34,381 consumers User vkalantri connected
+INFO 2025-05-09 05:00:26,148 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:00:26,153 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:01:32,446 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:01:32,449 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:01:32,449 consumers User vkalantri connected
+INFO 2025-05-09 05:01:32,493 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:01:32,501 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:01:32,502 consumers User vkalantri connected
+INFO 2025-05-09 05:01:38,149 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:01:38,152 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:01:38,153 consumers User vkalantri connected
+INFO 2025-05-09 05:01:38,188 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:01:38,195 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:01:38,198 consumers User vkalantri connected
+INFO 2025-05-09 05:01:53,109 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:01:53,118 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:01:53,119 consumers User git connected
+INFO 2025-05-09 05:01:53,199 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:01:53,213 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:01:53,214 consumers User git connected
+DEBUG 2025-05-09 05:01:58,804 consumers Received challenge message from git
+DEBUG 2025-05-09 05:02:01,507 consumers Received challenge_response message from vkalantri
+INFO 2025-05-09 05:02:32,920 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:02:32,957 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:02:32,972 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:02:32,989 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:06:47,638 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:06:47,641 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:06:50,709 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:06:50,719 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:06:50,721 consumers User git connected
+INFO 2025-05-09 05:06:50,823 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:06:50,855 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:06:50,856 consumers User git connected
+INFO 2025-05-09 05:07:01,048 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:07:01,050 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:07:01,051 consumers User vkalantri connected
+INFO 2025-05-09 05:07:01,113 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:07:01,121 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:07:01,121 consumers User vkalantri connected
+DEBUG 2025-05-09 05:07:17,813 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 05:07:24,895 consumers Received challenge_response message from git
+INFO 2025-05-09 05:23:21,455 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:21,459 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:21,460 consumers User vkalantri connected
+INFO 2025-05-09 05:23:21,502 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:21,507 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:21,508 consumers User vkalantri connected
+INFO 2025-05-09 05:23:27,104 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:27,169 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:27,170 consumers User vkalantri connected
+INFO 2025-05-09 05:23:27,376 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:27,380 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:27,381 consumers User vkalantri connected
+INFO 2025-05-09 05:23:27,581 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:23:27,587 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:23:27,589 consumers User git connected
+INFO 2025-05-09 05:23:27,875 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:23:27,876 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:23:27,877 consumers User git connected
+INFO 2025-05-09 05:23:28,293 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:28,295 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:28,295 consumers User vkalantri connected
+INFO 2025-05-09 05:23:28,462 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:28,468 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:28,469 consumers User vkalantri connected
+INFO 2025-05-09 05:23:33,325 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:23:33,326 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:23:33,870 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:33,873 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:33,874 consumers User vkalantri connected
+INFO 2025-05-09 05:23:33,906 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:33,911 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:33,912 consumers User vkalantri connected
+INFO 2025-05-09 05:23:35,276 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:23:35,278 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:23:43,293 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:23:43,301 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:23:43,302 consumers User git connected
+INFO 2025-05-09 05:23:43,362 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:23:43,371 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:23:43,372 consumers User git connected
+INFO 2025-05-09 05:23:45,775 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:23:45,776 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:23:46,300 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:46,303 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:46,303 consumers User vkalantri connected
+INFO 2025-05-09 05:23:46,352 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:23:46,363 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:23:46,364 consumers User vkalantri connected
+DEBUG 2025-05-09 05:23:52,104 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 05:23:57,134 consumers Received challenge_response message from git
+INFO 2025-05-09 05:24:04,205 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:24:04,206 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:24:04,782 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:24:04,785 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:24:04,786 consumers User vkalantri connected
+INFO 2025-05-09 05:24:04,821 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:24:04,826 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:24:04,827 consumers User vkalantri connected
+INFO 2025-05-09 05:24:24,056 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:24:24,059 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:34:54,510 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:34:54,550 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:34:54,550 consumers User vkalantri connected
+INFO 2025-05-09 05:34:54,702 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:34:54,707 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:34:54,707 consumers User vkalantri connected
+INFO 2025-05-09 05:34:54,734 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:34:54,737 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:34:54,737 consumers User vkalantri connected
+INFO 2025-05-09 05:34:56,350 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:34:56,354 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:34:56,355 consumers User vkalantri connected
+INFO 2025-05-09 05:35:04,446 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:35:04,449 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:35:04,450 consumers User vkalantri connected
+INFO 2025-05-09 05:35:04,486 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:35:04,489 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:35:04,490 consumers User vkalantri connected
+INFO 2025-05-09 05:35:05,683 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:35:05,684 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:35:06,933 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:35:06,934 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:35:50,425 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:35:50,426 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:36:15,006 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:36:15,008 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:36:15,009 consumers User vkalantri connected
+INFO 2025-05-09 05:36:15,039 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:36:15,041 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:36:15,041 consumers User vkalantri connected
+INFO 2025-05-09 05:36:17,501 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:36:17,507 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:36:17,508 consumers User git connected
+INFO 2025-05-09 05:36:17,563 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:36:17,570 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:36:17,572 consumers User git connected
+DEBUG 2025-05-09 05:36:26,320 consumers Received challenge message from git
+DEBUG 2025-05-09 05:36:29,008 consumers Received challenge_response message from vkalantri
+INFO 2025-05-09 05:45:11,469 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:11,482 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:11,485 consumers User vkalantri connected
+INFO 2025-05-09 05:45:11,596 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:11,618 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:11,624 consumers User vkalantri connected
+INFO 2025-05-09 05:45:17,926 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:17,987 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:17,987 consumers User vkalantri connected
+INFO 2025-05-09 05:45:18,126 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:18,130 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:18,131 consumers User vkalantri connected
+INFO 2025-05-09 05:45:18,146 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:18,154 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:18,155 consumers User git connected
+INFO 2025-05-09 05:45:18,159 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:18,164 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:18,165 consumers User vkalantri connected
+INFO 2025-05-09 05:45:18,192 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:18,209 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:18,211 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:18,211 consumers User git connected
+INFO 2025-05-09 05:45:18,216 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:18,217 consumers User vkalantri connected
+INFO 2025-05-09 05:45:30,161 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:45:30,163 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:45:30,881 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:30,883 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:30,883 consumers User git connected
+INFO 2025-05-09 05:45:30,910 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:30,915 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:30,917 consumers User git connected
+DEBUG 2025-05-09 05:45:34,627 consumers Received resign message from git
+INFO 2025-05-09 05:45:37,678 consumers Disconnecting, code: 1000, user: git
+INFO 2025-05-09 05:45:38,023 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:38,030 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:38,031 consumers User git connected
+INFO 2025-05-09 05:45:38,083 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:38,087 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:38,090 consumers User git connected
+INFO 2025-05-09 05:45:39,965 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:45:39,966 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:45:40,575 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:40,578 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:40,579 consumers User vkalantri connected
+INFO 2025-05-09 05:45:40,612 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:45:40,618 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:45:40,618 consumers User vkalantri connected
+DEBUG 2025-05-09 05:45:52,497 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 05:45:55,944 consumers Received challenge_response message from git
+INFO 2025-05-09 05:45:56,295 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:56,302 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:56,304 consumers User git connected
+INFO 2025-05-09 05:45:56,357 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:45:56,373 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:45:56,374 consumers User git connected
+INFO 2025-05-09 05:46:06,060 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:46:06,062 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:46:06,063 consumers User vkalantri connected
+INFO 2025-05-09 05:46:06,115 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:46:06,120 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:46:06,123 consumers User vkalantri connected
+DEBUG 2025-05-09 05:46:10,855 consumers Received move message from vkalantri
+INFO 2025-05-09 05:55:16,569 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:16,616 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:16,618 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:16,618 consumers User git connected
+INFO 2025-05-09 05:55:16,623 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:16,623 consumers User vkalantri connected
+INFO 2025-05-09 05:55:16,779 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:16,785 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:16,786 consumers User vkalantri connected
+INFO 2025-05-09 05:55:17,384 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:17,386 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:17,386 consumers User git connected
+INFO 2025-05-09 05:55:18,320 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:55:18,321 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:55:18,915 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:18,918 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:18,919 consumers User git connected
+INFO 2025-05-09 05:55:18,943 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:18,947 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:18,949 consumers User git connected
+DEBUG 2025-05-09 05:55:22,748 consumers Received resign message from git
+INFO 2025-05-09 05:55:30,308 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:55:30,309 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 05:55:30,791 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:30,793 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:30,794 consumers User git connected
+INFO 2025-05-09 05:55:30,832 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:30,839 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:30,839 consumers User git connected
+INFO 2025-05-09 05:55:32,466 consumers Disconnecting, code: 1000, user: git
+INFO 2025-05-09 05:55:32,801 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:32,807 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:32,808 consumers User git connected
+INFO 2025-05-09 05:55:32,854 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:32,862 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:32,862 consumers User git connected
+INFO 2025-05-09 05:55:36,329 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:55:36,330 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 05:55:36,934 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:36,937 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:36,937 consumers User vkalantri connected
+INFO 2025-05-09 05:55:36,976 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:36,981 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:36,981 consumers User vkalantri connected
+DEBUG 2025-05-09 05:55:43,367 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 05:55:46,105 consumers Received challenge_response message from git
+INFO 2025-05-09 05:55:46,461 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:46,471 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:46,472 consumers User git connected
+INFO 2025-05-09 05:55:46,539 auth WebSocket authenticated user: git
+INFO 2025-05-09 05:55:46,556 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 05:55:46,558 consumers User git connected
+INFO 2025-05-09 05:55:51,850 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:51,851 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:51,851 consumers User vkalantri connected
+INFO 2025-05-09 05:55:51,892 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 05:55:51,897 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 05:55:51,897 consumers User vkalantri connected
+DEBUG 2025-05-09 05:56:07,642 consumers Received move message from vkalantri
+ERROR 2025-05-09 05:56:07,643 consumers Error in LobbyConsumer.receive: 'LobbyConsumer' object has no attribute 'game_group_name'
+INFO 2025-05-09 06:00:03,202 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:00:03,204 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:00:03,211 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:00:03,213 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:00:04,293 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:00:04,296 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:00:04,297 consumers User vkalantri connected
+INFO 2025-05-09 06:00:04,336 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:00:04,343 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:00:04,344 consumers User vkalantri connected
+INFO 2025-05-09 06:00:07,767 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:00:07,770 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:00:07,786 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:00:07,794 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:00:07,796 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:00:08,336 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:00:08,338 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:00:08,338 consumers User git connected
+INFO 2025-05-09 06:00:08,359 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:00:08,360 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:00:08,361 consumers User git connected
+DEBUG 2025-05-09 06:00:11,143 consumers Received move message from git
+ERROR 2025-05-09 06:00:11,143 consumers Error in LobbyConsumer.receive: 'LobbyConsumer' object has no attribute 'game_group_name'
+INFO 2025-05-09 06:07:51,371 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:07:51,436 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:07:51,440 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:07:51,441 consumers User vkalantri connected
+INFO 2025-05-09 06:07:51,441 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:07:51,442 consumers User git connected
+INFO 2025-05-09 06:07:51,465 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:07:51,468 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:07:51,470 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:07:51,470 consumers User vkalantri connected
+INFO 2025-05-09 06:07:51,471 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:07:51,472 consumers User git connected
+INFO 2025-05-09 06:08:01,554 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:08:01,556 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:08:02,665 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:08:02,679 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:08:02,682 consumers User vkalantri connected
+INFO 2025-05-09 06:08:02,716 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:08:02,720 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:08:02,720 consumers User vkalantri connected
+DEBUG 2025-05-09 06:08:07,780 consumers Received move message from vkalantri
+ERROR 2025-05-09 06:08:07,780 consumers Error in LobbyConsumer.receive: 'LobbyConsumer' object has no attribute 'game_group_name'
+INFO 2025-05-09 06:10:53,832 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:10:53,875 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:10:53,879 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:10:53,880 consumers User git connected
+INFO 2025-05-09 06:10:53,880 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:10:53,880 consumers User vkalantri connected
+INFO 2025-05-09 06:10:56,348 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:10:56,353 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:10:56,355 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:10:56,355 consumers User vkalantri connected
+INFO 2025-05-09 06:10:56,359 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:10:56,360 consumers User git connected
+INFO 2025-05-09 06:10:59,095 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:10:59,097 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:11:00,077 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:11:00,080 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:11:00,080 consumers User vkalantri connected
+INFO 2025-05-09 06:11:00,111 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:11:00,113 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:11:00,113 consumers User vkalantri connected
+INFO 2025-05-09 06:11:11,083 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:11:11,084 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:11:11,633 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:11:11,635 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:11:11,636 consumers User git connected
+INFO 2025-05-09 06:11:11,655 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:11:11,657 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:11:11,657 consumers User git connected
+DEBUG 2025-05-09 06:11:13,767 consumers Received move message from git
+ERROR 2025-05-09 06:11:13,769 consumers Error in LobbyConsumer.receive: local variable 'game_id' referenced before assignment
+INFO 2025-05-09 06:12:10,924 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:12:10,926 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:12:11,484 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:12:11,487 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:12:11,487 consumers User git connected
+INFO 2025-05-09 06:12:11,516 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:12:11,518 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:12:11,518 consumers User git connected
+INFO 2025-05-09 06:13:46,358 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:13:46,359 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:13:47,395 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:13:47,397 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:13:47,397 consumers User vkalantri connected
+INFO 2025-05-09 06:13:47,429 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:13:47,432 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:13:47,433 consumers User vkalantri connected
+DEBUG 2025-05-09 06:13:49,994 consumers Received move message from vkalantri
+ERROR 2025-05-09 06:13:49,997 consumers Error in LobbyConsumer.receive: local variable 'game_id' referenced before assignment
+INFO 2025-05-09 06:16:18,396 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:16:18,437 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:16:18,441 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:16:18,442 consumers User vkalantri connected
+INFO 2025-05-09 06:16:18,442 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:16:18,442 consumers User git connected
+INFO 2025-05-09 06:16:18,465 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:16:18,468 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:16:18,470 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:16:18,470 consumers User vkalantri connected
+INFO 2025-05-09 06:16:18,472 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:16:18,473 consumers User git connected
+INFO 2025-05-09 06:16:22,399 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:16:22,400 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:16:23,340 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:16:23,346 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:16:23,346 consumers User vkalantri connected
+INFO 2025-05-09 06:16:23,404 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:16:23,407 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:16:23,407 consumers User vkalantri connected
+INFO 2025-05-09 06:16:24,343 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:16:24,345 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:16:24,934 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:16:24,936 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:16:24,936 consumers User git connected
+INFO 2025-05-09 06:16:24,957 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:16:24,959 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:16:24,959 consumers User git connected
+DEBUG 2025-05-09 06:16:28,589 consumers Received move message from git
+ERROR 2025-05-09 06:16:28,591 consumers Error in LobbyConsumer.receive: local variable 'game_id' referenced before assignment
+INFO 2025-05-09 06:17:34,601 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:17:34,657 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:34,662 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:17:34,662 consumers User vkalantri connected
+INFO 2025-05-09 06:17:34,663 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:34,663 consumers User git connected
+INFO 2025-05-09 06:17:34,696 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:34,700 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:17:34,702 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:34,703 consumers User git connected
+INFO 2025-05-09 06:17:34,707 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:17:34,708 consumers User vkalantri connected
+INFO 2025-05-09 06:17:40,702 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:17:40,704 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:17:41,704 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:17:41,711 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:17:41,717 consumers User vkalantri connected
+INFO 2025-05-09 06:17:41,757 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:17:41,761 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:17:41,762 consumers User vkalantri connected
+INFO 2025-05-09 06:17:44,107 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:17:44,109 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:17:44,645 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:44,647 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:44,648 consumers User git connected
+INFO 2025-05-09 06:17:44,678 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:44,680 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:44,680 consumers User git connected
+DEBUG 2025-05-09 06:17:47,480 consumers Received move message from vkalantri
+ERROR 2025-05-09 06:17:47,490 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:17:47,491 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:17:47,491 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:17:47,491 consumers Error in game_updated: 'game_id'
+INFO 2025-05-09 06:17:52,374 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:17:52,374 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:17:52,827 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:52,829 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:52,829 consumers User git connected
+INFO 2025-05-09 06:17:52,864 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:17:52,866 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:17:52,866 consumers User git connected
+INFO 2025-05-09 06:18:31,276 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:18:31,283 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:18:31,287 consumers User vkalantri connected
+INFO 2025-05-09 06:18:31,338 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:18:31,341 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:18:31,342 consumers User vkalantri connected
+INFO 2025-05-09 06:18:33,935 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:18:33,936 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:18:33,936 consumers User vkalantri connected
+INFO 2025-05-09 06:18:33,968 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:18:33,971 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:18:33,972 consumers User vkalantri connected
+INFO 2025-05-09 06:18:35,845 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:18:35,847 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:18:36,530 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:18:36,533 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:18:36,533 consumers User git connected
+INFO 2025-05-09 06:18:36,572 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:18:36,577 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:18:36,580 consumers User git connected
+DEBUG 2025-05-09 06:18:40,517 consumers Received move message from git
+ERROR 2025-05-09 06:18:40,531 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,531 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:18:40,532 consumers Error in game_updated: 'game_id'
+INFO 2025-05-09 06:29:19,957 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:19,968 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:19,970 consumers User vkalantri connected
+INFO 2025-05-09 06:29:20,051 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:20,073 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:20,078 consumers User vkalantri connected
+INFO 2025-05-09 06:29:21,066 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:21,069 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:21,069 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:21,072 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:24,980 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:25,023 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:25,023 consumers User vkalantri connected
+INFO 2025-05-09 06:29:25,159 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:25,164 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:25,164 consumers User vkalantri connected
+INFO 2025-05-09 06:29:25,283 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:25,285 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:25,287 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:25,287 consumers User vkalantri connected
+INFO 2025-05-09 06:29:25,294 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:25,294 consumers User git connected
+INFO 2025-05-09 06:29:25,325 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:25,334 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:25,340 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:25,341 consumers User vkalantri connected
+INFO 2025-05-09 06:29:25,346 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:25,346 consumers User git connected
+INFO 2025-05-09 06:29:27,155 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:27,157 consumers Disconnecting, code: 1001, user: vkalantri
+INFO 2025-05-09 06:29:27,411 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:27,425 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:27,426 consumers User vkalantri connected
+INFO 2025-05-09 06:29:27,504 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:27,516 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:27,519 consumers User vkalantri connected
+INFO 2025-05-09 06:29:28,935 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:29:28,936 consumers Disconnecting, code: 1001, user: git
+INFO 2025-05-09 06:29:29,346 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:29,349 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:29,350 consumers User git connected
+INFO 2025-05-09 06:29:29,395 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:29,408 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:29,409 consumers User git connected
+DEBUG 2025-05-09 06:29:32,232 consumers Received resign message from git
+INFO 2025-05-09 06:29:34,523 consumers Disconnecting, code: 1000, user: git
+INFO 2025-05-09 06:29:34,563 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:34,575 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:34,576 consumers User git connected
+INFO 2025-05-09 06:29:34,648 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:34,665 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:34,669 consumers User git connected
+DEBUG 2025-05-09 06:29:44,657 consumers Received challenge message from vkalantri
+DEBUG 2025-05-09 06:29:47,239 consumers Received challenge_response message from git
+INFO 2025-05-09 06:29:47,292 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:47,299 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:47,300 consumers User git connected
+INFO 2025-05-09 06:29:47,372 auth WebSocket authenticated user: git
+INFO 2025-05-09 06:29:47,380 consumers WebSocket connection accepted for user: git
+INFO 2025-05-09 06:29:47,383 consumers User git connected
+INFO 2025-05-09 06:29:50,993 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:50,997 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:50,997 consumers User vkalantri connected
+INFO 2025-05-09 06:29:51,102 auth WebSocket authenticated user: vkalantri
+INFO 2025-05-09 06:29:51,109 consumers WebSocket connection accepted for user: vkalantri
+INFO 2025-05-09 06:29:51,111 consumers User vkalantri connected
+DEBUG 2025-05-09 06:29:54,393 consumers Received move message from vkalantri
+ERROR 2025-05-09 06:29:54,414 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,414 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,415 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,415 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,416 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,416 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,417 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,417 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,417 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,417 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:54,418 consumers Error in game_updated: 'game_id'
+DEBUG 2025-05-09 06:29:57,517 consumers Received move message from git
+ERROR 2025-05-09 06:29:57,535 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,536 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,536 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,536 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,536 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,536 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,537 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,537 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,537 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,537 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:29:57,538 consumers Error in game_updated: 'game_id'
+DEBUG 2025-05-09 06:30:00,359 consumers Received move message from vkalantri
+ERROR 2025-05-09 06:30:00,389 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,390 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,390 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,391 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,391 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,391 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,392 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,392 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,392 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,392 consumers Error in game_updated: 'game_id'
+ERROR 2025-05-09 06:30:00,393 consumers Error in game_updated: 'game_id'
